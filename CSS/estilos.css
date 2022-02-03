@@ -1,0 +1,167 @@
+body{
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+}
+
+.header-background{
+    background-image: url(https://club365it.com/wp-content/uploads/2020/10/Tu-Educacion-en-la-Era-del-Conocimiento.png);
+    background-size: cover;
+}
+
+.header-h1{
+    margin-top: 4em;
+}
+
+.header-slogan{
+    margin-bottom: 4em;
+    font-size: 1.1em;
+}
+
+.menu{
+    z-index: 100;
+    width: 100%;
+}
+
+.Tierra{
+    animation-name: girar;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+}
+
+.btn{
+    margin: 0.2em;
+    padding: 0.2em 1.2em 0.2em 1.2em;
+}
+
+@keyframes girar{
+    from{
+        transform: rotateZ(0) ;
+    }
+
+    to{
+        transform: rotateZ(360deg);
+    }
+
+}
+
+/*------ Section  ----*/
+.h3-section{
+    margin: 2em;
+}
+
+.box-section{
+    margin: 4em 1em 1em 1em;
+}
+
+.img-section{
+    width: 35%;
+    margin-bottom: 1em;
+}
+
+.p-section{
+    font-size: 1em;
+    margin-top: 2em;
+}
+
+
+.main-h2{
+    margin: 1.5em;
+}
+
+
+.footer1 { 
+    background: #232323; 
+    padding: 30px 0 0 0; 
+    font-size: 12px; 
+    color: #999; 
+}
+	
+
+.footer1 a { 
+    color: #ccc; 
+}
+
+.footer1 a:hover {
+    color: #fff; 
+}
+
+
+.footer1 .widget { 
+    margin-bottom:30px; 
+}
+
+.footer1 .widget-title { 
+    font-size: 17px; 
+    font-weight: bold; 
+    color: #ccc; 
+    margin: 0 0 20px; 
+}
+
+.footer1 .entry-meta { 
+    border-top: 1px solid #ccc; 
+    border-bottom: 1px solid #ccc;
+     margin: 0 0 35px 0; 
+     padding: 2px 0; 
+     color: #888888; 
+     font-size: 12px; 
+     font-size: 0.75rem; 
+    }
+
+.footer1 .entry-meta a { 
+    color: #333333; 
+}
+
+.footer1 .entry-meta .meta-in { 
+    border-top: 1px solid #ccc; 
+    border-bottom: 1px solid #ccc; 
+    padding: 10px 0; 
+}
+
+
+.footer2 { 
+    background: #191919;
+    padding: 15px 0; 
+    color: #777; 
+    font-size: 12px; 
+}
+
+.footer2 a { 
+    color: #aaa; 
+}
+
+.footer2 a:hover { 
+    color: #fff; 
+}
+
+.footer2 p { 
+    margin: 0; 
+}
+
+.widget-simplenav { 
+    margin-left:-5px; 
+}		
+
+.widget-simplenav a{ 
+    margin:0 5px; 
+}		
+
+
+.card{
+    margin:1em;
+}
+
+.card img{
+    width: 50%;
+}
+
+.header-interno { 
+    height:100px; 
+    min-height: 100px; 
+    padding-top:0px; 
+}
+
+.form{
+    margin: 3em;
+    
+}
