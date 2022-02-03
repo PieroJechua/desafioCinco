@@ -9,16 +9,16 @@ body{
 }
 
 @media screen and (max-width: 480px){
-    .header-background{
-        background-color: rgb(95, 93, 93);
-        background-size: cover;
+.header-background{
+    background-color: rgb(95, 93, 93);
+    background-size: 0%;
     }
 }
 
 @media screen and (min-width:480px) and (max-width: 768px){
     .header-background{
         background-color: rgb(95, 93, 93);
-        background-size: cover;
+        background-size: 0%;
     }
 }
 
